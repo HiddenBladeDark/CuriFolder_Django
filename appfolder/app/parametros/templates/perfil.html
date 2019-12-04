@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styleprofile.css">
+    <link rel="icon" href="assets/img/inicio.png">
+    <link rel="stylesheet" href="assets/css/styleindex.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" crossorigin="anonymous">
+  <title>Perfil de usuario</title>
+  </head>
+  <!-- ESTE ES EL MENU YA DE POR SI -->
+  <body style="background: #b3b4b5;">
+      <!-- <div id="sideNavigation" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="index.html">Inicio</a>
+          <a href="#">Perfiles</a>
+          <a href="nosotros.html">Nosotros</a>
+      </div> -->
+      <!-- ESTE ES EL BOTONCITO DEL MENU -->
+        <!-- <nav class="topnav bg-primary">
+          <a href="#" onclick="openNav()" class="navopen">
+            <svg width="30" height="30" id="icoOpen">
+                <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+                <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+                <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+            </svg>
+          </a>
+        </nav> -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top " role="navigation">
+          <div class="container">
+              <a class="navbar-brand titulo" href="#">Curifolder</a>
+              <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+                &#9776;
+              </button>
+              <div class="collapse navbar-collapse" id="exCollapsingNavbar">
+                 <ul class="nav navbar-nav">
+                     <li class="nav-item"><a href="index.html" class="nav-link navbar-brand">Inicio</a></li>
+                  </ul>
+                  <ul class="nav navbar-nav">
+                     <li class="nav-item"><a href="nosotros.html" class="nav-link navbar-brand">Nosotros</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+   <!-- TODO ESTO ES EL CONTENIDO DEL MINI FORMULARIO DE INGRESO -->
+        <div id="main">
+        <!-- NO SE PARA QUE COÑO ES ESTO PERO POR ALHUNA RAZON DEJA ESPACIOS -->
+        </div>
+        <!-- PRIMERO VA EL CONTENEDOR DEL JOSE --> 
+      <div class="container">
+        <div class="row">
+          <!-- CONTENEDOR DE LA IMAGEN DE PERFIL Y EL BOTON -->
+          <div class="col-lg-3 order-lg text-center" style="margin-left: -20px;">
+            <img src="assets/img/jose.jpg" style="border-radius: 10px; height: 300px; width: 200px;" class="mx-auto img-fluid img-circle d-block" alt="avatar">
+            <div class="card-body">
+              <button type="button" class="btn btn-primary" style="width: 150px;">Editar Perfil</button>
+            </div>
+          </div>
+          <!-- CONTENEDOR DE MENU MAS LAS TABLAS -->
+          <div class="card tab-card">
+            <!-- CONTENEDOR DE UNICAMENTE EL MENU DE USAURIO -->
+            <div class="card-header tab-card-header">
+              <ul class="nav nav-tabs card-header-tabs" role="tablist">
+                <li class="nav-item">
+                  <a class="nav-link active" id="two-tab" data-toggle="tab" href="#two" role="tab" aria-controls="Two" aria-selected="true">Información Personal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="one-tab" data-toggle="tab" href="#one" role="tab" aria-controls="One" aria-selected="true">Información Ocupacional</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="one-tab" data-toggle="tab" href="#three" role="tab" aria-controls="One" aria-selected="true">Estudios Complementarios</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" id="one-tab" data-toggle="tab" href="#four" role="tab" aria-controls="one" aria-selected="true">Experiencia Laboral</a>
+                </li>
+              </ul>
+            </div>
+            <!-- ESTE ES EL CONTENEDOR DE TODAS LAS TABLAS -->
+            <div class="tab-content" id="myTabContent" style="width: 850px;">
+              <!-- DESDE AQUI INCIA LA PRIMERA TABLA -->
+              <div class="tab-pane show fade p-3" id="one" role="tabpanel" aria-labelledby="one-tab">
+                <div class="row">
+                  <div class="col-md-12" style="font-family: Arial, Helvetica, sans-serif;">
+                    <h5><b>Perfil Profesional</b></h5>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, architecto? Perferendis repellendus error, numquam unde commodi inventore, officiis hic itaque odio necessitatibus explicabo minima, totam neque temporibus ullam! Explicabo, dolores!
+                    </p><hr>
+                    <h5><b>Perfil Ocupacional</b></h5>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita corrupti iure esse molestias delectus labore, itaque sint, autem libero dolore facere! Est quasi et dolore quas rerum error aperiam iusto.
+                    </p><hr>
+                    <h5><b>Logros Destacados</b></h5>
+                    <p>
+                      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita corrupti iure esse molestias delectus labore, itaque sint, autem libero dolore facere! Est quasi et dolore quas rerum error aperiam iusto.
+                    </p><hr>
+                    <div>
+                      <h5><b>Conocimientos en las tecnologias</b></h5>
+                      <a href="#" class="badge badge-dark badge-pill" style="background: orange; padding: 10px; width: 60px;">HTML</a>
+                      <a href="#" class="badge badge-dark badge-pill" style="background: green; padding: 10px; width: 60px;">PHP</a>
+                      <a href="#" class="badge badge-dark badge-pill" style="background: brown; padding: 10px; width: 60px;">JAVA</a>
+                      <a href="#" class="badge badge-dark badge-pill" style="background: blue; padding: 10px; width: 80px;">PYTHON</a>
+                      <a href="#" class="badge badge-dark badge-pill" style="background: purple; padding: 10px; width: 100px;">BOOTSTRAP</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- PARA ENTRAR A LA SEGUNDA TABLA -->
+              <div class="tab-pane fade show p-3 active" id="two" role="tabpanel" aria-labelledby="two-tab">
+                <form role="form">
+                  <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                    <label class="col-lg-3 col-form-label form-control-label"><b>Nombres:</b></label>
+                    <div class="col-lg-9">
+                      <label class="col-lg-3 col-form-label form-control-label">Jose Manuel</label>
+                    </div>
+                  </div><hr>
+                  <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                    <label class="col-lg-3 col-form-label form-control-label"><b>Apellidos:</b></label>
+                    <div class="col-lg-9">
+                      <label class="col-lg-5 col-form-label form-control-label">Quintero Rodriguez</label>
+                    </div>
+                  </div><hr>
+                  <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                    <label class="col-lg-3 col-form-label form-control-label"><b>Identificación:</b></label>
+                    <div class="col-lg-9">
+                      <label class="col-lg-5 col-form-label form-control-label">...</label>
+                    </div>
+                  </div><hr>
+                  <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                    <label class="col-lg-3 col-form-label form-control-label"><b>Correo electrónico:</b></label>
+                    <div class="col-lg-9">
+                      <label class="col-lg-5 col-form-label form-control-label">jose@jose.com</label>
+                    </div>
+                  </div><hr>
+                  <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                    <label class="col-lg-3 col-form-label form-control-label"><b>Institución:</b></label>
+                    <div class="col-lg-9">
+                      <label class="col-lg-5 col-form-label form-control-label">ITM</label>
+                    </div>
+                  </div><hr>
+                  <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                  <label class="col-lg-3 col-form-label form-control-label"><b>Número telefónico:</b></label>
+                    <div class="col-lg-9">
+                      <label class="col-lg-5 col-form-label form-control-label">3016814849</label>
+                    </div>
+                  </div><hr>
+                  <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                    <label class="col-lg-3 col-form-label form-control-label"><b>Dirección:</b></label>
+                      <div class="col-lg-9">
+                      <label class="col-lg-5 col-form-label form-control-label">Carrera 55</label>
+                    </div>
+                  </div><hr>
+                    <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                      <label class="col-lg-3 col-form-label form-control-label"><b>Ubicación:</b></label>
+                      <div class="col-lg-5">
+                        <label class="col-lg-12 col-form-label form-control-label">Medellín / Antioquia</label>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- CONTENEDOR DE LA TERCERA TABLA -->
+                <div class="tab-pane show fade p-3" id="three" role="tabpanel" aria-labelledby="one-tab">
+                    <div class="row">
+                      <div class="col-md-12" style="font-family: Arial, Helvetica, sans-serif;">
+                        <h5><b>Básica Primeria</b></h5>
+                        <p>
+                          Liceo Antioqueño<br>2005
+                        </p><hr>
+                        <h5><b>Básica Secundaria</b></h5>
+                        <p>
+                          Liceo Antioqueño<br>2011
+                        </p><hr>
+                        <h5><b>Técnica</b></h5>
+                        <p>
+                          Técnico en sistemas<br>ITM<br>2013
+                        </p><hr>
+                        <h5><b>Tecnología</b></h5>
+                        <p>
+                          Tecnólogo en sistemas<br>ITM<br>2016
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- CONTENEDOR DE LA CUARTA TABLA -->
+                  <div class="tab-pane show fade p-3" id="four" role="tabpanel" aria-labelledby="one-tab">
+                      <div class="row">
+                        <div class="col-md-12" style="font-family: Arial, Helvetica, sans-serif;">
+                          <h5><b>Nombre de la empresa</b></h5>
+                          <p>Ferrielectricos</p><hr>
+                          <h5><b>Nombre del Gerente</b></h5>
+                          <p>Mel Gibson</p><hr>
+                          <h5><b>Numero de la Empresa</b></h5>
+                          <p>555-0101-1010</p><hr>
+                          <h5><b>Cargo</b></h5>
+                          <p>Vendedor y Reparador</p><hr>
+                          <h5><b>Funciones</b></h5>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem porro, recusandae asperiores temporibus ab commodi ullam enim tempora iusto voluptatem repellat, possimus molestiae atque explicabo quae laborum consectetur mollitia odit.
+                          </p><hr>
+                          <h5><b>Fecha de Contratación</b></h5>
+                          <p>3 de Diciembre de 2011</p><hr>
+                          <h5><b>Fecha de Retiro</b></h5>
+                          <p>27 de Diciembre de 2013</p><hr>
+                          <h5><b>Estado Actual</b></h5>
+                          <p>Retiro Voluntario</p>
+                        </div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <hr> <!-- ESTE ES EL CONTENEDOR DEL JORGE -->
+        <br>
+        <div class="container">
+          <div class="row">
+            <!-- CONTENEDOR DE LA IMAGEN Y EL BOTON -->
+            <div class="col-lg-3 order-lg text-center" style="margin-left: -20px;">
+              <img src="assets/img/jorge.jpg" style="border-radius: 10px; height: 300px; width: 200px;" class="mx-auto img-fluid img-circle d-block" alt="avatar">
+              <div class="card-body">
+                <button type="button" class="btn btn-primary" style="width: 150px;">Editar Perfil</button>
+              </div>
+            </div>
+            <!-- CONTENEDOR DEL MENU Y LAS TABLAS -->
+            <div class="card tab-card">
+              <!-- CONTENEDOR DE SOLAMENTE LOS MENUS -->
+              <div class="card-header tab-card-header">
+                <ul class="nav nav-tabs card-header-tabs" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" id="two-tab" data-toggle="tab" href="#six" role="tab" aria-controls="Two" aria-selected="true">Información Personal</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="one-tab" data-toggle="tab" href="#five" role="tab" aria-controls="One" aria-selected="true">Información Ocupacional</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="one-tab" data-toggle="tab" href="#seven" role="tab" aria-controls="One" aria-selected="true">Estudios Complementarios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="one-tab" data-toggle="tab" href="#eight" role="tab" aria-controls="one" aria-selected="true">Experiencia Laboral</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- ESTE ES EL CONTENEDOR DE SOLO LAS TABLAS -->
+              <div class="tab-content" id="myTabContent" style="width: 850px;">
+                <!-- CONTENEDOR DE LA PRIMERA TABLA -->
+                <div class="tab-pane show fade p-3" id="five" role="tabpanel" aria-labelledby="one-tab">
+                  <div class="row">
+                    <div class="col-md-12" style="font-family: Arial, Helvetica, sans-serif;">
+                      <h5><b>Perfil Profesional</b></h5>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, architecto? Perferendis repellendus error, numquam unde commodi inventore, officiis hic itaque odio necessitatibus explicabo minima, totam neque temporibus ullam! Explicabo, dolores!
+                      </p><hr>
+                      <h5><b>Perfil Ocupacional</b></h5>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita corrupti iure esse molestias delectus labore, itaque sint, autem libero dolore facere! Est quasi et dolore quas rerum error aperiam iusto.
+                      </p><hr>
+                      <h5><b>Logros Destacados</b></h5>
+                      <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita corrupti iure esse molestias delectus labore, itaque sint, autem libero dolore facere! Est quasi et dolore quas rerum error aperiam iusto.
+                      </p><hr>
+                      <div>
+                        <h5><b>Conocimientos en las tecnologias</b></h5>
+                        <a href="#" class="badge badge-dark badge-pill" style="background: orange; padding: 10px; width: 60px;">HTML</a>
+                        <a href="#" class="badge badge-dark badge-pill" style="background: green; padding: 10px; width: 60px;">PHP</a>
+                        <a href="#" class="badge badge-dark badge-pill" style="background: brown; padding: 10px; width: 60px;">JAVA</a>
+                        <a href="#" class="badge badge-dark badge-pill" style="background: blue; padding: 10px; width: 80px;">PYTHON</a>
+                        <a href="#" class="badge badge-dark badge-pill" style="background: purple; padding: 10px; width: 100px;">BOOTSTRAP</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- CONTENEDOR DE LA SEGUNDA TABLA -->
+                <div class="tab-pane fade show p-3 active" id="six" role="tabpanel" aria-labelledby="two-tab">
+                  <!-- PARA LA INFORMACION PERSONAL SE USA UN FORMULARIO -->
+                  <form role="form">
+                    <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                      <label class="col-lg-3 col-form-label form-control-label"><b>Nombres:</b></label>
+                      <div class="col-lg-9">
+                        <label class="col-lg-3 col-form-label form-control-label">Jorge Andres</label>
+                      </div>
+                    </div><hr>
+                    <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                      <label class="col-lg-3 col-form-label form-control-label"><b>Apellidos:</b></label>
+                      <div class="col-lg-9">
+                        <label class="col-lg-5 col-form-label form-control-label">Londoño Velez</label>
+                      </div>
+                    </div><hr>
+                    <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                      <label class="col-lg-3 col-form-label form-control-label"><b>Identificación:</b></label>
+                      <div class="col-lg-9">
+                        <label class="col-lg-5 col-form-label form-control-label">...</label>
+                      </div>
+                    </div><hr>
+                    <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                      <label class="col-lg-3 col-form-label form-control-label"><b>Correo electrónico:</b></label>
+                      <div class="col-lg-9">
+                        <label class="col-lg-5 col-form-label form-control-label">andrelovel@gmail.com</label>
+                      </div>
+                    </div><hr>
+                    <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                      <label class="col-lg-3 col-form-label form-control-label"><b>Institución:</b></label>
+                      <div class="col-lg-9">
+                        <label class="col-lg-5 col-form-label form-control-label">ITM</label>
+                      </div>
+                    </div><hr>
+                    <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                    <label class="col-lg-3 col-form-label form-control-label"><b>Número telefónico:</b></label>
+                      <div class="col-lg-9">
+                        <label class="col-lg-5 col-form-label form-control-label">...</label>
+                      </div>
+                    </div><hr>
+                    <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                      <label class="col-lg-3 col-form-label form-control-label"><b>Dirección:</b></label>
+                        <div class="col-lg-9">
+                        <label class="col-lg-5 col-form-label form-control-label">Carrera 45</label>
+                      </div>
+                    </div><hr>
+                      <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                        <label class="col-lg-3 col-form-label form-control-label"><b>Ubicación:</b></label>
+                        <div class="col-lg-5">
+                          <label class="col-lg-12 col-form-label form-control-label">Copacabana / Antioquia</label>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <!-- CONTENEDOR DE LA TERCERA TABLA -->
+                  <div class="tab-pane show fade p-3" id="seven" role="tabpanel" aria-labelledby="one-tab">
+                      <div class="row">
+                        <div class="col-md-12" style="font-family: Arial, Helvetica, sans-serif;">
+                          <h5><b>Básica Primeria</b></h5>
+                          <p>
+                            Liceo Antioqueño<br>2005
+                          </p><hr>
+                          <h5><b>Básica Secundaria</b></h5>
+                          <p>
+                            Liceo Antioqueño<br>2011
+                          </p><hr>
+                          <h5><b>Técnica</b></h5>
+                          <p>
+                            Técnico en sistemas<br>ITM<br>2013
+                          </p><hr>
+                          <h5><b>Tecnología</b></h5>
+                          <p>
+                            Tecnólogo en sistemas<br>ITM<br>2016
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CONTENEDOR DE LA CUARTA TABLA -->
+                    <div class="tab-pane show fade p-3" id="eight" role="tabpanel" aria-labelledby="one-tab">
+                        <div class="row">
+                          <div class="col-md-12" style="font-family: Arial, Helvetica, sans-serif;">
+                            <h5><b>Nombre de la empresa</b></h5>
+                            <p>Ferrielectricos</p><hr>
+                            <h5><b>Nombre del Gerente</b></h5>
+                            <p>Mel Gibson</p><hr>
+                            <h5><b>Numero de la Empresa</b></h5>
+                            <p>555-0101-1010</p><hr>
+                            <h5><b>Cargo</b></h5>
+                            <p>Vendedor y Reparador</p><hr>
+                            <h5><b>Funciones</b></h5>
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem porro, recusandae asperiores temporibus ab commodi ullam enim tempora iusto voluptatem repellat, possimus molestiae atque explicabo quae laborum consectetur mollitia odit.
+                            </p><hr>
+                            <h5><b>Fecha de Contratación</b></h5>
+                            <p>3 de Diciembre de 2011</p><hr>
+                            <h5><b>Fecha de Retiro</b></h5>
+                            <p>27 de Diciembre de 2013</p><hr>
+                            <h5><b>Estado Actual</b></h5>
+                            <p>Retiro Voluntario</p>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <hr><!-- Y POR ULTIMO EL CONTENEDOR DEL SANTIAGO -->
+          <br>
+          <div class="container">
+              <div class="row">
+                <!-- CONTENEDOR DE LA IMAGEN Y EL BOTON -->
+                <div class="col-lg-3 order-lg text-center" style="margin-left: -20px;">
+                  <img src="assets/img/santi.jpg" style="border-radius: 10px; height: 300px; width: 200px;" class="mx-auto img-fluid img-circle d-block" alt="avatar">
+                  <div class="card-body">
+                    <button type="button" class="btn btn-primary" style="width: 150px;">Editar Perfil</button>
+                  </div>
+                </div>
+                <!-- CONTENEDOR DEL MENU Y LAS TABLAS -->
+                <div class="card tab-card">
+                  <!-- CONTENEDOR DE SOLAMENTE LOS MENUS -->
+                  <div class="card-header tab-card-header">
+                    <ul class="nav nav-tabs card-header-tabs" role="tablist">
+                      <li class="nav-item">
+                        <a class="nav-link active" id="two-tab" data-toggle="tab" href="#ten" role="tab" aria-controls="Two" aria-selected="true">Información Personal</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="one-tab" data-toggle="tab" href="#nine" role="tab" aria-controls="One" aria-selected="true">Información Ocupacional</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="one-tab" data-toggle="tab" href="#eleven" role="tab" aria-controls="One" aria-selected="true">Estudios Complementarios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="one-tab" data-toggle="tab" href="#twelve" role="tab" aria-controls="one" aria-selected="true">Experiencia Laboral</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- ESTE ES EL CONTENEDOR DE SOLO LAS TABLAS -->
+                  <div class="tab-content" id="myTabContent" style="width: 850px;">
+                    <!-- CONTENEDOR DE LA PRIMERA TABLA -->
+                    <div class="tab-pane show fade p-3" id="nine" role="tabpanel" aria-labelledby="one-tab">
+                      <div class="row">
+                        <div class="col-md-12" style="font-family: Arial, Helvetica, sans-serif;">
+                          <h5><b>Perfil Profesional</b></h5>
+                          <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, architecto? Perferendis repellendus error, numquam unde commodi inventore, officiis hic itaque odio necessitatibus explicabo minima, totam neque temporibus ullam! Explicabo, dolores!
+                          </p><hr>
+                          <h5><b>Perfil Ocupacional</b></h5>
+                          <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita corrupti iure esse molestias delectus labore, itaque sint, autem libero dolore facere! Est quasi et dolore quas rerum error aperiam iusto.
+                          </p><hr>
+                          <h5><b>Logros Destacados</b></h5>
+                          <p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita corrupti iure esse molestias delectus labore, itaque sint, autem libero dolore facere! Est quasi et dolore quas rerum error aperiam iusto.
+                          </p><hr>
+                          <div>
+                            <h5><b>Conocimientos en las tecnologias</b></h5>
+                            <a href="#" class="badge badge-dark badge-pill" style="background: orange; padding: 10px; width: 60px;">HTML</a>
+                            <a href="#" class="badge badge-dark badge-pill" style="background: green; padding: 10px; width: 60px;">PHP</a>
+                            <a href="#" class="badge badge-dark badge-pill" style="background: brown; padding: 10px; width: 60px;">JAVA</a>
+                            <a href="#" class="badge badge-dark badge-pill" style="background: blue; padding: 10px; width: 80px;">PYTHON</a>
+                            <a href="#" class="badge badge-dark badge-pill" style="background: purple; padding: 10px; width: 100px;">BOOTSTRAP</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- CONTENEDOR DE LA SEGUNDA TABLA -->
+                    <div class="tab-pane fade show p-3 active" id="ten" role="tabpanel" aria-labelledby="two-tab">
+                      <!-- PARA LA INFORMACION PERSONAL SE USA UN FORMULARIO -->
+                      <form role="form">
+                        <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                          <label class="col-lg-3 col-form-label form-control-label"><b>Nombres:</b></label>
+                          <div class="col-lg-9">
+                            <label class="col-lg-3 col-form-label form-control-label">Santiago</label>
+                          </div>
+                        </div><hr>
+                        <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                          <label class="col-lg-3 col-form-label form-control-label"><b>Apellidos:</b></label>
+                          <div class="col-lg-9">
+                            <label class="col-lg-5 col-form-label form-control-label">Ortega Cardenas</label>
+                          </div>
+                        </div><hr>
+                        <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                          <label class="col-lg-3 col-form-label form-control-label"><b>Identificación:</b></label>
+                          <div class="col-lg-9">
+                            <label class="col-lg-5 col-form-label form-control-label">...</label>
+                          </div>
+                        </div><hr>
+                        <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                          <label class="col-lg-3 col-form-label form-control-label"><b>Correo electrónico:</b></label>
+                          <div class="col-lg-9">
+                            <label class="col-lg-5 col-form-label form-control-label">sortaga@gmail.com</label>
+                          </div>
+                        </div><hr>
+                        <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                          <label class="col-lg-3 col-form-label form-control-label"><b>Institución:</b></label>
+                          <div class="col-lg-9">
+                            <label class="col-lg-5 col-form-label form-control-label">ITM</label>
+                          </div>
+                        </div><hr>
+                        <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                        <label class="col-lg-3 col-form-label form-control-label"><b>Número telefónico:</b></label>
+                          <div class="col-lg-9">
+                            <label class="col-lg-5 col-form-label form-control-label">...</label>
+                          </div>
+                        </div><hr>
+                        <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                          <label class="col-lg-3 col-form-label form-control-label"><b>Dirección:</b></label>
+                            <div class="col-lg-9">
+                            <label class="col-lg-5 col-form-label form-control-label">Carrera 35</label>
+                          </div>
+                        </div><hr>
+                          <div class="form-group row" style="font-family: Arial, Helvetica, sans-serif;">
+                            <label class="col-lg-3 col-form-label form-control-label"><b>Ubicación:</b></label>
+                            <div class="col-lg-5">
+                              <label class="col-lg-12 col-form-label form-control-label">Bello / Antioquia</label>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                      <!-- CONTENEDOR DE LA TERCERA TABLA -->
+                      <div class="tab-pane show fade p-3" id="eleven" role="tabpanel" aria-labelledby="one-tab">
+                          <div class="row">
+                            <div class="col-md-12" style="font-family: Arial, Helvetica, sans-serif;">
+                              <h5><b>Básica Primeria</b></h5>
+                              <p>
+                                Liceo Antioqueño<br>2005
+                              </p><hr>
+                              <h5><b>Básica Secundaria</b></h5>
+                              <p>
+                                Liceo Antioqueño<br>2011
+                              </p><hr>
+                              <h5><b>Técnica</b></h5>
+                              <p>
+                                Técnico en sistemas<br>ITM<br>2013
+                              </p><hr>
+                              <h5><b>Tecnología</b></h5>
+                              <p>
+                                Tecnólogo en sistemas<br>ITM<br>2016
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- CONTENEDOR DE LA CUARTA TABLA -->
+                        <div class="tab-pane show fade p-3" id="twelve" role="tabpanel" aria-labelledby="one-tab">
+                            <div class="row">
+                              <div class="col-md-12" style="font-family: Arial, Helvetica, sans-serif;">
+                                <h5><b>Nombre de la empresa</b></h5>
+                                <p>Ferrielectricos</p><hr>
+                                <h5><b>Nombre del Gerente</b></h5>
+                                <p>Mel Gibson</p><hr>
+                                <h5><b>Numero de la Empresa</b></h5>
+                                <p>555-0101-1010</p><hr>
+                                <h5><b>Cargo</b></h5>
+                                <p>Vendedor y Reparador</p><hr>
+                                <h5><b>Funciones</b></h5>
+                                <p>
+                                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem porro, recusandae asperiores temporibus ab commodi ullam enim tempora iusto voluptatem repellat, possimus molestiae atque explicabo quae laborum consectetur mollitia odit.
+                                </p><hr>
+                                <h5><b>Fecha de Contratación</b></h5>
+                                <p>3 de Diciembre de 2011</p><hr>
+                                <h5><b>Fecha de Retiro</b></h5>
+                                <p>27 de Diciembre de 2013</p><hr>
+                                <h5><b>Estado Actual</b></h5>
+                                <p>Retiro Voluntario</p>
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script>
+          // function openNav() {
+          //   document.getElementById("sideNavigation").style.width = "250px";
+          //   document.getElementById("main").style.marginLeft = "250px";
+          // }
+          // function closeNav() {
+          //   document.getElementById("sideNavigation").style.width = "0";
+          //   document.getElementById("main").style.marginLeft = "0";
+          // }
+          // $('.topnav a').click(function(){
+          //   $('#sideNavigation').style.width = "250px";
+          //   $("#main").style.marginLeft = "250px";
+          // });
+          // $('.closebtn').click(function(){
+          //   $('#sideNavigation').style.width = "0";
+          //   $("#main").style.marginLeft = "0";
+          // });
+      </script> 
+      <br><br><br><br><br><br><br>
+      <!-- ESTE ES EL FAMOSISIMO PIE DE PAGINA EL CUAL SE PUSO FIJO ABAJO CON BR -->
+  <footer class="bg-primary pd-2">
+    <div class="text-center" style="color: white; padding: 5px;">© 2019 Derechos Autorizados por el SENA</div>
+  </footer>
+  </body>
+</html>
